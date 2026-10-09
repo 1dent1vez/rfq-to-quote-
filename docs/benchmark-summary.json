@@ -1,0 +1,79 @@
+{
+  "provenance": "Recorded prior synthetic agent-authored studies; not human-reviewed or customer validated. Technical projection only, original artifacts retained locally.",
+  "new_inference_in_this_delivery": 0,
+  "default_workflow": "offline; experimental models not ready for UI",
+  "offline": {
+    "existing_contract": {
+      "evaluated_cases": 8,
+      "expected_cases": 8,
+      "contract_passes": 3,
+      "exact_annotation_matches": 0,
+      "catalog_status_passes": 0,
+      "populated_correct": 3,
+      "populated_total": 37,
+      "null_aware_correct": 29,
+      "null_aware_total": 90
+    },
+    "baseline_numeric": {
+      "evaluated_cases": 17,
+      "expected_cases": 17,
+      "contract_passes": 16,
+      "exact_annotation_matches": 16,
+      "catalog_status_passes": 16,
+      "populated_correct": 29,
+      "populated_total": 29,
+      "null_aware_correct": 162,
+      "null_aware_total": 162
+    }
+  },
+  "original_model": {
+    "id": "upstage/solar-mini4:free",
+    "initial": {
+      "evaluated_cases": 8,
+      "contract_passes": 7,
+      "exact_annotation_matches": 0,
+      "semantic_correct": 39,
+      "semantic_total": 99
+    },
+    "latest_selected_after_bounded_retries": {
+      "evaluated_cases": 8,
+      "contract_passes": 8,
+      "exact_annotation_matches": 1,
+      "populated_gold_fields_correct": 17,
+      "populated_gold_fields_total": 37,
+      "semantic_correct": 68,
+      "semantic_total": 90
+    }
+  },
+  "citation_models": {
+    "upstage/solar-mini4:free": {
+      "evaluated_cases": 8,
+      "expected_cases": 8,
+      "contract_passes": 3,
+      "exact_annotation_matches": 0,
+      "catalog_status_passes": 2,
+      "populated_correct": 20,
+      "populated_total": 37,
+      "null_aware_correct": 51,
+      "null_aware_total": 90
+    },
+    "stepfun/step-3.7-flash:free": {
+      "evaluated_cases": 2,
+      "expected_cases": 8,
+      "contract_passes": 0,
+      "exact_annotation_matches": 0,
+      "catalog_status_passes": 0,
+      "populated_correct": 0,
+      "populated_total": 9,
+      "null_aware_correct": 0,
+      "null_aware_total": 18
+    }
+  },
+  "limitations": [
+    "Null-aware scoring rewards absent fields; populated-field scores must also be reported.",
+    "Grammar-specific fixtures are not evidence of general extraction accuracy.",
+    "Second citation model evaluated only two of eight planned cases; do not compare as full benchmark.",
+    "Transport/prompt root cause remains unproven.",
+    "No new model call, budget reset or paid fallback."
+  ]
+}

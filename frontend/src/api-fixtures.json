@@ -1,0 +1,196 @@
+{
+  "id": "5f3976c5-1acc-446c-9f34-6e91f7e3d01e",
+  "request_id": "fixture",
+  "customer": "Taller Rivera (ficticio)",
+  "email_text": "Necesito dos filtros GP-149.",
+  "extractor": "deterministic-seller-form-v2",
+  "synthetic": true,
+  "status": "identified",
+  "lines": [
+    {
+      "mode": "pieza",
+      "fields": {
+        "referencia": "GP-149",
+        "cantidad": "2"
+      },
+      "quantity": 2,
+      "status": "matched",
+      "compatibility": "not_evaluated",
+      "candidates": [
+        {
+          "id": "gonher-gp-149",
+          "reference": "GP-149",
+          "manufacturer": "GONHER",
+          "description": "filtro de aceite",
+          "synthetic": false,
+          "source": {
+            "manufacturer": "GONHER",
+            "edition": "2026",
+            "printed_page": 69,
+            "pdf_page": 71,
+            "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+            "claim": "Nissan VERSA 2019 - 2012 L4-1.6L; aceite GP-149; aire GA-306; cabina GAC-2271 / GAF-2271",
+            "scope": "Curated GP oil subset; GPS not included. Catalog claim, not fitment certification."
+          },
+          "applications": [
+            {
+              "make": "Nissan",
+              "model": "Versa",
+              "year": 2012,
+              "engine": "1.6",
+              "source_engine": "L4-1.6L",
+              "synthetic": false,
+              "source": {
+                "manufacturer": "GONHER",
+                "edition": "2026",
+                "printed_page": 69,
+                "pdf_page": 71,
+                "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+                "claim": "Nissan VERSA 2019 - 2012 L4-1.6L; aceite GP-149; aire GA-306; cabina GAC-2271 / GAF-2271",
+                "scope": "Curated GP oil subset; GPS not included. Catalog claim, not fitment certification."
+              }
+            },
+            {
+              "make": "Nissan",
+              "model": "Versa",
+              "year": 2013,
+              "engine": "1.6",
+              "source_engine": "L4-1.6L",
+              "synthetic": false,
+              "source": {
+                "manufacturer": "GONHER",
+                "edition": "2026",
+                "printed_page": 69,
+                "pdf_page": 71,
+                "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+                "claim": "Nissan VERSA 2019 - 2012 L4-1.6L; aceite GP-149; aire GA-306; cabina GAC-2271 / GAF-2271",
+                "scope": "Curated GP oil subset; GPS not included. Catalog claim, not fitment certification."
+              }
+            },
+            {
+              "make": "Nissan",
+              "model": "Versa",
+              "year": 2014,
+              "engine": "1.6",
+              "source_engine": "L4-1.6L",
+              "synthetic": false,
+              "source": {
+                "manufacturer": "GONHER",
+                "edition": "2026",
+                "printed_page": 69,
+                "pdf_page": 71,
+                "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+                "claim": "Nissan VERSA 2019 - 2012 L4-1.6L; aceite GP-149; aire GA-306; cabina GAC-2271 / GAF-2271",
+                "scope": "Curated GP oil subset; GPS not included. Catalog claim, not fitment certification."
+              }
+            },
+            {
+              "make": "Nissan",
+              "model": "Versa",
+              "year": 2015,
+              "engine": "1.6",
+              "source_engine": "L4-1.6L",
+              "synthetic": false,
+              "source": {
+                "manufacturer": "GONHER",
+                "edition": "2026",
+                "printed_page": 69,
+                "pdf_page": 71,
+                "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+                "claim": "Nissan VERSA 2019 - 2012 L4-1.6L; aceite GP-149; aire GA-306; cabina GAC-2271 / GAF-2271",
+                "scope": "Curated GP oil subset; GPS not included. Catalog claim, not fitment certification."
+              }
+            },
+            {
+              "make": "Nissan",
+              "model": "Versa",
+              "year": 2016,
+              "engine": "1.6",
+              "source_engine": "L4-1.6L",
+              "synthetic": false,
+              "source": {
+                "manufacturer": "GONHER",
+                "edition": "2026",
+                "printed_page": 69,
+                "pdf_page": 71,
+                "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+                "claim": "Nissan VERSA 2019 - 2012 L4-1.6L; aceite GP-149; aire GA-306; cabina GAC-2271 / GAF-2271",
+                "scope": "Curated GP oil subset; GPS not included. Catalog claim, not fitment certification."
+              }
+            },
+            {
+              "make": "Nissan",
+              "model": "Versa",
+              "year": 2017,
+              "engine": "1.6",
+              "source_engine": "L4-1.6L",
+              "synthetic": false,
+              "source": {
+                "manufacturer": "GONHER",
+                "edition": "2026",
+                "printed_page": 69,
+                "pdf_page": 71,
+                "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+                "claim": "Nissan VERSA 2019 - 2012 L4-1.6L; aceite GP-149; aire GA-306; cabina GAC-2271 / GAF-2271",
+                "scope": "Curated GP oil subset; GPS not included. Catalog claim, not fitment certification."
+              }
+            },
+            {
+              "make": "Nissan",
+              "model": "Versa",
+              "year": 2018,
+              "engine": "1.6",
+              "source_engine": "L4-1.6L",
+              "synthetic": false,
+              "source": {
+                "manufacturer": "GONHER",
+                "edition": "2026",
+                "printed_page": 69,
+                "pdf_page": 71,
+                "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+                "claim": "Nissan VERSA 2019 - 2012 L4-1.6L; aceite GP-149; aire GA-306; cabina GAC-2271 / GAF-2271",
+                "scope": "Curated GP oil subset; GPS not included. Catalog claim, not fitment certification."
+              }
+            },
+            {
+              "make": "Nissan",
+              "model": "Versa",
+              "year": 2019,
+              "engine": "1.6",
+              "source_engine": "L4-1.6L",
+              "synthetic": false,
+              "source": {
+                "manufacturer": "GONHER",
+                "edition": "2026",
+                "printed_page": 69,
+                "pdf_page": 71,
+                "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+                "claim": "Nissan VERSA 2019 - 2012 L4-1.6L; aceite GP-149; aire GA-306; cabina GAC-2271 / GAF-2271",
+                "scope": "Curated GP oil subset; GPS not included. Catalog claim, not fitment certification."
+              }
+            }
+          ]
+        }
+      ],
+      "missing_fields": [],
+      "clarifications": [],
+      "evidence": {
+        "source": "seller_form",
+        "line": 1,
+        "text": "pieza | referencia=GP-149 | cantidad=2",
+        "structured_fields": {
+          "mode": "pieza",
+          "referencia": "GP-149",
+          "cantidad": "2"
+        }
+      }
+    }
+  ],
+  "structured_lines": [
+    {
+      "mode": "pieza",
+      "referencia": "GP-149",
+      "cantidad": "2"
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "dataset_version": "deterministic-numeric-v1",
+  "kind": "baseline-specific-agent-authored",
+  "human_reviewed": false,
+  "annotation_policy": "Curated baseline scope only; null quantities and vehicle fields intentionally reflect abstention; not comparable with broad original gold. No-items uses explicit pending envelope rather than strict contract.",
+  "cases": [
+    {
+      "id": "prefix",
+      "message": "2 GP-149",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 2,
+                  "end": 8,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 1,
+                  "text": "2"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "matched"
+      ]
+    },
+    {
+      "id": "suffix",
+      "message": "GAD-6554 x3",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GAD-6554",
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 8,
+                  "text": "GAD-6554"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 3,
+              "evidence": [
+                {
+                  "start": 10,
+                  "end": 11,
+                  "text": "3"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "matched"
+      ]
+    },
+    {
+      "id": "units",
+      "message": "2 piezas GP-149",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 9,
+                  "end": 15,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 1,
+                  "text": "2"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "matched"
+      ]
+    },
+    {
+      "id": "literal-no-hyphen",
+      "message": "2 GP149",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP149",
+              "evidence": [
+                {
+                  "start": 2,
+                  "end": 7,
+                  "text": "GP149"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 1,
+                  "text": "2"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "duplicates",
+      "message": "2 GP-149\nGP-149 x3",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 2,
+                  "end": 8,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 1,
+                  "text": "2"
+                }
+              ]
+            }
+          },
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 9,
+                  "end": 15,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 3,
+              "evidence": [
+                {
+                  "start": 17,
+                  "end": 18,
+                  "text": "3"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "matched",
+        "matched"
+      ]
+    },
+    {
+      "id": "multi",
+      "message": "2 GP-149\n4 GAD-6554",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 2,
+                  "end": 8,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 1,
+                  "text": "2"
+                }
+              ]
+            }
+          },
+          {
+            "reference": {
+              "value": "GAD-6554",
+              "evidence": [
+                {
+                  "start": 11,
+                  "end": 19,
+                  "text": "GAD-6554"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 4,
+              "evidence": [
+                {
+                  "start": 9,
+                  "end": 10,
+                  "text": "4"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "matched",
+        "matched"
+      ]
+    },
+    {
+      "id": "conflict",
+      "message": "2 GP-149 x3",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 2,
+                  "end": 8,
+                  "text": "GP-149"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "zero",
+      "message": "0 GP-149",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 2,
+                  "end": 8,
+                  "text": "GP-149"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "negative",
+      "message": "-2 GP-149",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 3,
+                  "end": 9,
+                  "text": "GP-149"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "decimal",
+      "message": "1.6 GP-149",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 4,
+                  "end": 10,
+                  "text": "GP-149"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "word",
+      "message": "dos GP-149",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 4,
+                  "end": 10,
+                  "text": "GP-149"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "year-context",
+      "message": "2 GP-149 para Versa 2021 motor 1.6",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 2,
+                  "end": 8,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 1,
+                  "text": "2"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "unicode",
+      "message": "Cotízame 🙂 2 piezas GP-149",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 20,
+                  "end": 26,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 11,
+                  "end": 12,
+                  "text": "2"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "unknown",
+      "message": "2 ZZ-888",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "ZZ-888",
+              "evidence": [
+                {
+                  "start": 2,
+                  "end": 8,
+                  "text": "ZZ-888"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 1,
+                  "text": "2"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "year-not-quantity",
+      "message": "2021 GP-149",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 5,
+                  "end": 11,
+                  "text": "GP-149"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "missing",
+      "message": "GP-149",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 6,
+                  "text": "GP-149"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "no-explicit",
+      "message": "filtro para Versa 2021",
+      "expected": {
+        "items": []
+      },
+      "expected_catalog_status": []
+    }
+  ]
+}

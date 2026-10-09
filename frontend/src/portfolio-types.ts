@@ -1,0 +1,7 @@
+export type Vehicle = {make:string;model:string;year:number;engine:string}
+export type Product = {id:string;reference:string;description:string;manufacturer:string;source:{url:string;edition:string;printed_page:number};applications:Vehicle[]}
+export type Resolution = {id:string;product_id:string;quantity:number;scope:'reference'|'vehicle';vehicle:Vehicle|null}
+export type FragmentReview = {id:string;kind:'non_substantive'|'resolved_context'|'requested_part';reason:string;line_id:string|null}
+export type Inventory = {product_id:string;price:string;cost:string;on_hand:number;reserved:number;available:number;version:number;synthetic:boolean}
+export type Quote = {version:number;snapshot:string;catalog_hash:string;subtotal:string;vat:string;total:string;rules:{version:string;minimum_gross_margin:string};lines:{line_id:string;product:Product;quantity:number;price:string;cost:string;gross_margin:string;line_total:string;scope:string;vehicle:Vehicle|null}[]}
+export type Case = {id:string;request_id:string;customer:string;original:{message:string;attachment?:{filename:string;text:string}};version:number;status:'pending'|'reviewed'|'draft'|'approved';lines:{id:string;suggested_reference:string|null;suggested_quantity:number|null;evidence:Record<string,unknown>[];resolution:Resolution|null}[];fragments:{id:string;text:string;start:number;end:number;classification:FragmentReview|null}[];supplements:{text:string;actor:string;reason:string;version:number}[];audit:{action:string;actor:string;reason:string;version:number;at:string}[];quote:Quote|null}

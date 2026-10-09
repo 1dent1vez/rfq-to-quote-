@@ -1,0 +1,5 @@
+export interface CatalogSource {url:string; edition:string; printed_page:number; claim:string}
+export interface Application { make: string; model: string; year: number; engine: string; synthetic: boolean }
+export interface Product { id: string; reference: string; manufacturer: string; description: string; source?: CatalogSource; synthetic: boolean; applications: Application[]; matching_applications?: Application[] }
+export interface IntakeLine { mode: string; fields: Record<string, string>; quantity: number | null; status: 'matched' | 'pending'; compatibility: 'not_evaluated' | 'synthetic_application_only' | 'source_catalog_claim_only'; candidates: Product[]; missing_fields: string[]; clarifications: string[]; evidence: { source: string; line: number; text: string } }
+export interface IntakeCase { structured_lines?: Record<string,string>[]; id: string; request_id: string; customer: string; email_text: string; extractor: string; synthetic: boolean; status: 'identified' | 'pending'; lines: IntakeLine[] }

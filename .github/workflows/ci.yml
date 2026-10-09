@@ -1,0 +1,41 @@
+name: Local portfolio verification
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.cache/playwright
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Create isolated Python environment
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install -r requirements-dev.txt
+      - name: Build and backend/component regressions
+        run: ./run-demo.sh --verify
+      - name: Real loopback HTTP, concurrency and restart
+        run: .venv/bin/python scripts/http_smoke.py
+      - name: Install Chromium with runner system libraries
+        run: .venv/bin/python -m playwright install --with-deps chromium
+      - name: Real compiled UI, downloads and screenshots
+        run: .venv/bin/python scripts/browser_smoke.py
+      - name: Public hygiene allowlist
+        run: .venv/bin/python scripts/public_check.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: synthetic-demo-screenshots
+          path: docs/screenshots/*.png
+          retention-days: 7

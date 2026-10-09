@@ -1,0 +1,50 @@
+# Local state and dependencies
+.venv/
+venv/
+.cache/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+frontend/node_modules/
+frontend/dist/
+data/
+*.sqlite*
+*.db
+*.lock-journal
+.env*
+!.env.example
+*.pem
+*.key
+*.log
+*.trace
+*.har
+coverage/
+htmlcov/
+.DS_Store
+# Historical research, account/provider responses and screenshots stay local.
+docs/*
+!docs/CASE_STUDY.md
+!docs/ARCHITECTURE.md
+!docs/GUIA_ES.md
+!docs/QA_REPORT.md
+!docs/PUBLIC_RELEASE.md
+!docs/PRODUCT_BRIEF.md
+!docs/SELLER_REALISM_RESEARCH.md
+!docs/benchmark-summary.json
+!docs/screenshots/
+docs/screenshots/*
+!docs/screenshots/01-intake.png
+!docs/screenshots/02-review.png
+!docs/screenshots/03-approved.png
+!docs/screenshots/04-printable.png
+!docs/screenshots/05-stale-draft.png
+!docs/screenshots/06-mobile.png
+# Do not redistribute manufacturer PDFs, original accounts or model ledgers.
+*.pdf
+*.csv
+*.png
+*.jpg
+!docs/screenshots/*.png
+# Generated public exports and browser downloads
+public-export/
+quote-exports/

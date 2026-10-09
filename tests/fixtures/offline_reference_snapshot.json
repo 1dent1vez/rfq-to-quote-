@@ -1,0 +1,1695 @@
+{
+  "kind": "sanitized-technical-projection-of-recorded-offline-baseline",
+  "synthetic": true,
+  "human_reviewed": false,
+  "datasets": {
+    "existing_contract": {
+      "cases": [
+        {
+          "id": "reference",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 21,
+                        "end": 27,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": null,
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 21,
+                    "end": 27,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 21,
+                "text": "Buenas, necesito dos "
+              },
+              {
+                "start": 27,
+                "end": 50,
+                "text": " GONHER para el taller."
+              }
+            ],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        },
+        {
+          "id": "vehicle-complete",
+          "attempt": {
+            "result": null,
+            "rules": [],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 62,
+                "text": "Cotízame un filtro de aceite para Nissan Versa 2021 motor 1.6."
+              }
+            ],
+            "quantity_gaps": [],
+            "year_candidates": [
+              {
+                "value": "2021",
+                "evidence": [
+                  {
+                    "start": 47,
+                    "end": 51,
+                    "text": "2021"
+                  }
+                ],
+                "assignment": "unassigned",
+                "rule_id": "standalone-year-candidate",
+                "rule_version": "1"
+              }
+            ],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": []
+          }
+        },
+        {
+          "id": "cabin-ambiguous",
+          "attempt": {
+            "result": null,
+            "rules": [],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 65,
+                "text": "Necesito un filtro de cabina Nissan Versa 2018 1.6, ¿cuál tienes?"
+              }
+            ],
+            "quantity_gaps": [],
+            "year_candidates": [
+              {
+                "value": "2018",
+                "evidence": [
+                  {
+                    "start": 42,
+                    "end": 46,
+                    "text": "2018"
+                  }
+                ],
+                "assignment": "unassigned",
+                "rule_id": "standalone-year-candidate",
+                "rule_version": "1"
+              }
+            ],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": []
+          }
+        },
+        {
+          "id": "missing-year",
+          "attempt": {
+            "result": null,
+            "rules": [],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 56,
+                "text": "Un filtro de aceite para Nissan Versa 1.6; no sé el año."
+              }
+            ],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": []
+          }
+        },
+        {
+          "id": "unsupported-part",
+          "attempt": {
+            "result": null,
+            "rules": [],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 44,
+                "text": "¿Me consigues balatas delanteras para Versa?"
+              }
+            ],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": []
+          }
+        },
+        {
+          "id": "mixed-multiline",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 4,
+                        "end": 10,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": null,
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                },
+                {
+                  "reference": {
+                    "value": "GAD-6554",
+                    "evidence": [
+                      {
+                        "start": 23,
+                        "end": 31,
+                        "text": "GAD-6554"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": null,
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 4,
+                    "end": 10,
+                    "text": "GP-149"
+                  }
+                ]
+              },
+              {
+                "item": 1,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 23,
+                    "end": 31,
+                    "text": "GAD-6554"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 4,
+                "text": "Dos "
+              },
+              {
+                "start": 12,
+                "end": 23,
+                "text": "También un "
+              },
+              {
+                "start": 31,
+                "end": 43,
+                "text": ", por favor."
+              }
+            ],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              },
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        },
+        {
+          "id": "unknown-coverage",
+          "attempt": {
+            "result": null,
+            "rules": [],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 47,
+                "text": "Un filtro de aceite para Nissan Versa 2030 1.6."
+              }
+            ],
+            "quantity_gaps": [],
+            "year_candidates": [
+              {
+                "value": "2030",
+                "evidence": [
+                  {
+                    "start": 38,
+                    "end": 42,
+                    "text": "2030"
+                  }
+                ],
+                "assignment": "unassigned",
+                "rule_id": "standalone-year-candidate",
+                "rule_version": "1"
+              }
+            ],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": []
+          }
+        },
+        {
+          "id": "kit-and-unrepaired-reference",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP149",
+                    "evidence": [
+                      {
+                        "start": 32,
+                        "end": 37,
+                        "text": "GP149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": null,
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 32,
+                    "end": 37,
+                    "text": "GP149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 32,
+                "text": "Mándame el kit para Versa y dos "
+              }
+            ],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "baseline_numeric": {
+      "cases": [
+        {
+          "id": "prefix",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 2,
+                        "end": 8,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": {
+                    "value": 2,
+                    "evidence": [
+                      {
+                        "start": 0,
+                        "end": 1,
+                        "text": "2"
+                      }
+                    ]
+                  },
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "numeric-local-quantity",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 2,
+                    "end": 8,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "identified",
+            "lines": [
+              {
+                "status": "matched",
+                "candidates": [
+                  {
+                    "id": "gonher-gp-149"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "suffix",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GAD-6554",
+                    "evidence": [
+                      {
+                        "start": 0,
+                        "end": 8,
+                        "text": "GAD-6554"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": {
+                    "value": 3,
+                    "evidence": [
+                      {
+                        "start": 10,
+                        "end": 11,
+                        "text": "3"
+                      }
+                    ]
+                  },
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "numeric-local-quantity",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 10,
+                    "end": 11,
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 8,
+                    "text": "GAD-6554"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "identified",
+            "lines": [
+              {
+                "status": "matched",
+                "candidates": [
+                  {
+                    "id": "gonher-gad-6554"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "units",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 9,
+                        "end": 15,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": {
+                    "value": 2,
+                    "evidence": [
+                      {
+                        "start": 0,
+                        "end": 1,
+                        "text": "2"
+                      }
+                    ]
+                  },
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "numeric-local-quantity",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 9,
+                    "end": 15,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "identified",
+            "lines": [
+              {
+                "status": "matched",
+                "candidates": [
+                  {
+                    "id": "gonher-gp-149"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "literal-no-hyphen",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP149",
+                    "evidence": [
+                      {
+                        "start": 2,
+                        "end": 7,
+                        "text": "GP149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": {
+                    "value": 2,
+                    "evidence": [
+                      {
+                        "start": 0,
+                        "end": 1,
+                        "text": "2"
+                      }
+                    ]
+                  },
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "numeric-local-quantity",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 2,
+                    "end": 7,
+                    "text": "GP149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        },
+        {
+          "id": "duplicates",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 2,
+                        "end": 8,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": {
+                    "value": 2,
+                    "evidence": [
+                      {
+                        "start": 0,
+                        "end": 1,
+                        "text": "2"
+                      }
+                    ]
+                  },
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                },
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 9,
+                        "end": 15,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": {
+                    "value": 3,
+                    "evidence": [
+                      {
+                        "start": 17,
+                        "end": 18,
+                        "text": "3"
+                      }
+                    ]
+                  },
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "numeric-local-quantity",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 2,
+                    "end": 8,
+                    "text": "GP-149"
+                  }
+                ]
+              },
+              {
+                "item": 1,
+                "rule_id": "numeric-local-quantity",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 17,
+                    "end": 18,
+                    "text": "3"
+                  }
+                ]
+              },
+              {
+                "item": 1,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 9,
+                    "end": 15,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "identified",
+            "lines": [
+              {
+                "status": "matched",
+                "candidates": [
+                  {
+                    "id": "gonher-gp-149"
+                  }
+                ]
+              },
+              {
+                "status": "matched",
+                "candidates": [
+                  {
+                    "id": "gonher-gp-149"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "multi",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 2,
+                        "end": 8,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": {
+                    "value": 2,
+                    "evidence": [
+                      {
+                        "start": 0,
+                        "end": 1,
+                        "text": "2"
+                      }
+                    ]
+                  },
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                },
+                {
+                  "reference": {
+                    "value": "GAD-6554",
+                    "evidence": [
+                      {
+                        "start": 11,
+                        "end": 19,
+                        "text": "GAD-6554"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": {
+                    "value": 4,
+                    "evidence": [
+                      {
+                        "start": 9,
+                        "end": 10,
+                        "text": "4"
+                      }
+                    ]
+                  },
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "numeric-local-quantity",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 2,
+                    "end": 8,
+                    "text": "GP-149"
+                  }
+                ]
+              },
+              {
+                "item": 1,
+                "rule_id": "numeric-local-quantity",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 9,
+                    "end": 10,
+                    "text": "4"
+                  }
+                ]
+              },
+              {
+                "item": 1,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 11,
+                    "end": 19,
+                    "text": "GAD-6554"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "identified",
+            "lines": [
+              {
+                "status": "matched",
+                "candidates": [
+                  {
+                    "id": "gonher-gp-149"
+                  }
+                ]
+              },
+              {
+                "status": "matched",
+                "candidates": [
+                  {
+                    "id": "gonher-gad-6554"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "conflict",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 2,
+                        "end": 8,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": null,
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 2,
+                    "end": 8,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 2,
+                "text": "2 "
+              },
+              {
+                "start": 8,
+                "end": 11,
+                "text": " x3"
+              }
+            ],
+            "quantity_gaps": [
+              {
+                "item": 0,
+                "reason": "ambiguous_or_out_of_grammar_quantity",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "2"
+                  },
+                  {
+                    "start": 10,
+                    "end": 11,
+                    "text": "3"
+                  }
+                ]
+              }
+            ],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        },
+        {
+          "id": "zero",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 2,
+                        "end": 8,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": null,
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 2,
+                    "end": 8,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 2,
+                "text": "0 "
+              }
+            ],
+            "quantity_gaps": [
+              {
+                "item": 0,
+                "reason": "ambiguous_or_out_of_grammar_quantity",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "0"
+                  }
+                ]
+              }
+            ],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        },
+        {
+          "id": "negative",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 3,
+                        "end": 9,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": null,
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 3,
+                    "end": 9,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 3,
+                "text": "-2 "
+              }
+            ],
+            "quantity_gaps": [
+              {
+                "item": 0,
+                "reason": "ambiguous_or_out_of_grammar_quantity",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "-2"
+                  }
+                ]
+              }
+            ],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        },
+        {
+          "id": "decimal",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 4,
+                        "end": 10,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": null,
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 4,
+                    "end": 10,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 4,
+                "text": "1.6 "
+              }
+            ],
+            "quantity_gaps": [
+              {
+                "item": 0,
+                "reason": "ambiguous_or_out_of_grammar_quantity",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 3,
+                    "text": "1.6"
+                  }
+                ]
+              }
+            ],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        },
+        {
+          "id": "word",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 4,
+                        "end": 10,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": null,
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 4,
+                    "end": 10,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 4,
+                "text": "dos "
+              }
+            ],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        },
+        {
+          "id": "year-context",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 2,
+                        "end": 8,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": {
+                    "value": 2,
+                    "evidence": [
+                      {
+                        "start": 0,
+                        "end": 1,
+                        "text": "2"
+                      }
+                    ]
+                  },
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "numeric-local-quantity",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 2,
+                    "end": 8,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [
+              {
+                "start": 8,
+                "end": 34,
+                "text": " para Versa 2021 motor 1.6"
+              }
+            ],
+            "quantity_gaps": [],
+            "year_candidates": [
+              {
+                "value": "2021",
+                "evidence": [
+                  {
+                    "start": 20,
+                    "end": 24,
+                    "text": "2021"
+                  }
+                ],
+                "assignment": "unassigned",
+                "rule_id": "standalone-year-candidate",
+                "rule_version": "1"
+              }
+            ],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        },
+        {
+          "id": "unicode",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 20,
+                        "end": 26,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": {
+                    "value": 2,
+                    "evidence": [
+                      {
+                        "start": 11,
+                        "end": 12,
+                        "text": "2"
+                      }
+                    ]
+                  },
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "numeric-local-quantity",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 11,
+                    "end": 12,
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 20,
+                    "end": 26,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 11,
+                "text": "Cotízame 🙂 "
+              }
+            ],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        },
+        {
+          "id": "unknown",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "ZZ-888",
+                    "evidence": [
+                      {
+                        "start": 2,
+                        "end": 8,
+                        "text": "ZZ-888"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": {
+                    "value": 2,
+                    "evidence": [
+                      {
+                        "start": 0,
+                        "end": 1,
+                        "text": "2"
+                      }
+                    ]
+                  },
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "numeric-local-quantity",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "2"
+                  }
+                ]
+              },
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 2,
+                    "end": 8,
+                    "text": "ZZ-888"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        },
+        {
+          "id": "year-not-quantity",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 5,
+                        "end": 11,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": null,
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 5,
+                    "end": 11,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 5,
+                "text": "2021 "
+              }
+            ],
+            "quantity_gaps": [
+              {
+                "item": 0,
+                "reason": "ambiguous_or_out_of_grammar_quantity",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "text": "2021"
+                  }
+                ]
+              }
+            ],
+            "year_candidates": [
+              {
+                "value": "2021",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 4,
+                    "text": "2021"
+                  }
+                ],
+                "assignment": "unassigned",
+                "rule_id": "standalone-year-candidate",
+                "rule_version": "1"
+              }
+            ],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": []
+              }
+            ]
+          }
+        },
+        {
+          "id": "missing",
+          "attempt": {
+            "result": {
+              "items": [
+                {
+                  "reference": {
+                    "value": "GP-149",
+                    "evidence": [
+                      {
+                        "start": 0,
+                        "end": 6,
+                        "text": "GP-149"
+                      }
+                    ]
+                  },
+                  "description": null,
+                  "manufacturer": null,
+                  "quantity": null,
+                  "vehicle": null,
+                  "unsupported_concepts": []
+                }
+              ]
+            },
+            "rules": [
+              {
+                "item": 0,
+                "rule_id": "reference-shape",
+                "rule_version": "1",
+                "evidence": [
+                  {
+                    "start": 0,
+                    "end": 6,
+                    "text": "GP-149"
+                  }
+                ]
+              }
+            ],
+            "unresolved_fragments": [],
+            "quantity_gaps": [],
+            "year_candidates": [],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": [
+              {
+                "status": "pending",
+                "candidates": [
+                  {
+                    "id": "gonher-gp-149"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "no-explicit",
+          "attempt": {
+            "result": null,
+            "rules": [],
+            "unresolved_fragments": [
+              {
+                "start": 0,
+                "end": 22,
+                "text": "filtro para Versa 2021"
+              }
+            ],
+            "quantity_gaps": [],
+            "year_candidates": [
+              {
+                "value": "2021",
+                "evidence": [
+                  {
+                    "start": 18,
+                    "end": 22,
+                    "text": "2021"
+                  }
+                ],
+                "assignment": "unassigned",
+                "rule_id": "standalone-year-candidate",
+                "rule_version": "1"
+              }
+            ],
+            "uncertain_reference_candidates": [],
+            "status": "pending",
+            "lines": []
+          }
+        }
+      ]
+    }
+  }
+}

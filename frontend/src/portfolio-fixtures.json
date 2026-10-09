@@ -1,0 +1,1487 @@
+{
+  "catalog": [
+    {
+      "id": "gonher-gp-149",
+      "reference": "GP-149",
+      "manufacturer": "GONHER",
+      "description": "filtro de aceite",
+      "source": {
+        "manufacturer": "GONHER",
+        "edition": "2026",
+        "printed_page": 69,
+        "pdf_page": 71,
+        "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+        "scope": "Catalog claim only; not fitment certification. GP subset, excludes GPS."
+      },
+      "applications": [
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2012,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2013,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2014,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2015,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2016,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2017,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2018,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2019,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        }
+      ]
+    },
+    {
+      "id": "gonher-ga-306",
+      "reference": "GA-306",
+      "manufacturer": "GONHER",
+      "description": "filtro de aire",
+      "source": {
+        "manufacturer": "GONHER",
+        "edition": "2026",
+        "printed_page": 69,
+        "pdf_page": 71,
+        "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+        "scope": "Catalog claim only; not fitment certification. GP subset, excludes GPS."
+      },
+      "applications": [
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2012,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2013,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2014,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2015,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2016,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2017,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2018,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2019,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        }
+      ]
+    },
+    {
+      "id": "gonher-gac-2271",
+      "reference": "GAC-2271",
+      "manufacturer": "GONHER",
+      "description": "filtro de cabina",
+      "source": {
+        "manufacturer": "GONHER",
+        "edition": "2026",
+        "printed_page": 69,
+        "pdf_page": 71,
+        "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+        "scope": "Catalog claim only; not fitment certification. GP subset, excludes GPS."
+      },
+      "applications": [
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2012,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2013,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2014,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2015,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2016,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2017,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2018,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2019,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        }
+      ]
+    },
+    {
+      "id": "gonher-gaf-2271",
+      "reference": "GAF-2271",
+      "manufacturer": "GONHER",
+      "description": "filtro de cabina",
+      "source": {
+        "manufacturer": "GONHER",
+        "edition": "2026",
+        "printed_page": 69,
+        "pdf_page": 71,
+        "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+        "scope": "Catalog claim only; not fitment certification. GP subset, excludes GPS."
+      },
+      "applications": [
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2012,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2013,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2014,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2015,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2016,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2017,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2018,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2019,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        }
+      ]
+    },
+    {
+      "id": "gonher-gp-91",
+      "reference": "GP-91",
+      "manufacturer": "GONHER",
+      "description": "filtro de aceite",
+      "source": {
+        "manufacturer": "GONHER",
+        "edition": "2026",
+        "printed_page": 69,
+        "pdf_page": 71,
+        "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+        "scope": "Catalog claim only; not fitment certification. GP subset, excludes GPS."
+      },
+      "applications": [
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2020,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2021,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2022,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2023,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2024,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2025,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        }
+      ]
+    },
+    {
+      "id": "gonher-gad-6554",
+      "reference": "GAD-6554",
+      "manufacturer": "GONHER",
+      "description": "filtro de aire",
+      "source": {
+        "manufacturer": "GONHER",
+        "edition": "2026",
+        "printed_page": 69,
+        "pdf_page": 71,
+        "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+        "scope": "Catalog claim only; not fitment certification. GP subset, excludes GPS."
+      },
+      "applications": [
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2020,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2021,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2022,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2023,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2024,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2025,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        }
+      ]
+    },
+    {
+      "id": "gonher-gac-2330",
+      "reference": "GAC-2330",
+      "manufacturer": "GONHER",
+      "description": "filtro de cabina",
+      "source": {
+        "manufacturer": "GONHER",
+        "edition": "2026",
+        "printed_page": 69,
+        "pdf_page": 71,
+        "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+        "scope": "Catalog claim only; not fitment certification. GP subset, excludes GPS."
+      },
+      "applications": [
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2020,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2021,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2022,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2023,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2024,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2025,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        }
+      ]
+    },
+    {
+      "id": "gonher-gaf-2330",
+      "reference": "GAF-2330",
+      "manufacturer": "GONHER",
+      "description": "filtro de cabina",
+      "source": {
+        "manufacturer": "GONHER",
+        "edition": "2026",
+        "printed_page": 69,
+        "pdf_page": 71,
+        "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+        "scope": "Catalog claim only; not fitment certification. GP subset, excludes GPS."
+      },
+      "applications": [
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2020,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2021,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2022,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2023,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2024,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        },
+        {
+          "make": "Nissan",
+          "model": "Versa",
+          "year": 2025,
+          "engine": "1.6",
+          "source_engine": "L4-1.6L"
+        }
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "product_id": "gonher-ga-306",
+      "price": "175.00",
+      "cost": "105.00",
+      "on_hand": 20,
+      "reserved": 0,
+      "version": 1,
+      "available": 20,
+      "synthetic": true
+    },
+    {
+      "product_id": "gonher-gac-2271",
+      "price": "200.00",
+      "cost": "120.00",
+      "on_hand": 20,
+      "reserved": 0,
+      "version": 1,
+      "available": 20,
+      "synthetic": true
+    },
+    {
+      "product_id": "gonher-gac-2330",
+      "price": "300.00",
+      "cost": "180.00",
+      "on_hand": 20,
+      "reserved": 0,
+      "version": 1,
+      "available": 20,
+      "synthetic": true
+    },
+    {
+      "product_id": "gonher-gad-6554",
+      "price": "275.00",
+      "cost": "165.00",
+      "on_hand": 20,
+      "reserved": 0,
+      "version": 1,
+      "available": 20,
+      "synthetic": true
+    },
+    {
+      "product_id": "gonher-gaf-2271",
+      "price": "225.00",
+      "cost": "135.00",
+      "on_hand": 20,
+      "reserved": 0,
+      "version": 1,
+      "available": 20,
+      "synthetic": true
+    },
+    {
+      "product_id": "gonher-gaf-2330",
+      "price": "325.00",
+      "cost": "195.00",
+      "on_hand": 20,
+      "reserved": 0,
+      "version": 1,
+      "available": 20,
+      "synthetic": true
+    },
+    {
+      "product_id": "gonher-gp-149",
+      "price": "150.00",
+      "cost": "90.00",
+      "on_hand": 20,
+      "reserved": 2,
+      "version": 2,
+      "available": 18,
+      "synthetic": true
+    },
+    {
+      "product_id": "gonher-gp-91",
+      "price": "250.00",
+      "cost": "150.00",
+      "on_hand": 20,
+      "reserved": 0,
+      "version": 1,
+      "available": 20,
+      "synthetic": true
+    }
+  ],
+  "pending": {
+    "id": "e496735d-15c6-4595-ade0-76161f577a92",
+    "request_id": "demo-review",
+    "customer": "Taller ficticio",
+    "original": {
+      "request_id": "demo-review",
+      "customer": "Taller ficticio",
+      "message": "2 GP-149; entrega urgente",
+      "suggestions": true,
+      "manual_lines": []
+    },
+    "version": 1,
+    "status": "pending",
+    "lines": [
+      {
+        "id": "0",
+        "suggested_reference": "GP-149",
+        "suggested_quantity": 2,
+        "evidence": [
+          {
+            "start": 2,
+            "end": 8,
+            "text": "GP-149"
+          }
+        ],
+        "resolution": null,
+        "status": "pending"
+      }
+    ],
+    "fragments": [
+      {
+        "start": 8,
+        "end": 25,
+        "text": "; entrega urgente",
+        "id": "0",
+        "classification": null
+      }
+    ],
+    "parser": {
+      "parser_version": "explicit-reference-numeric-v1",
+      "state": "extracted",
+      "result": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 2,
+                  "end": 8,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "description": null,
+            "manufacturer": null,
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 1,
+                  "text": "2"
+                }
+              ]
+            },
+            "vehicle": null,
+            "unsupported_concepts": []
+          }
+        ]
+      },
+      "rules": [
+        {
+          "item": 0,
+          "rule_id": "numeric-local-quantity",
+          "rule_version": "1",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 1,
+              "text": "2"
+            }
+          ]
+        },
+        {
+          "item": 0,
+          "rule_id": "reference-shape",
+          "rule_version": "1",
+          "evidence": [
+            {
+              "start": 2,
+              "end": 8,
+              "text": "GP-149"
+            }
+          ]
+        }
+      ],
+      "year_candidates": [],
+      "uncertain_reference_candidates": [],
+      "quantity_gaps": [],
+      "unresolved_fragments": [
+        {
+          "start": 8,
+          "end": 25,
+          "text": "; entrega urgente"
+        }
+      ],
+      "handoff_gaps": [
+        "free_text_and_relationships_deferred"
+      ]
+    },
+    "supplements": [],
+    "audit": [
+      {
+        "action": "received",
+        "actor": "demo-intake",
+        "reason": "Solicitud sintética local",
+        "version": 1,
+        "at": "2026-10-09T19:25:06.777148+00:00"
+      }
+    ],
+    "quote": null
+  },
+  "reviewed": {
+    "id": "e496735d-15c6-4595-ade0-76161f577a92",
+    "request_id": "demo-review",
+    "customer": "Taller ficticio",
+    "original": {
+      "request_id": "demo-review",
+      "customer": "Taller ficticio",
+      "message": "2 GP-149; entrega urgente",
+      "suggestions": true,
+      "manual_lines": []
+    },
+    "version": 2,
+    "status": "reviewed",
+    "lines": [
+      {
+        "id": "0",
+        "suggested_reference": "GP-149",
+        "suggested_quantity": 2,
+        "evidence": [
+          {
+            "start": 2,
+            "end": 8,
+            "text": "GP-149"
+          }
+        ],
+        "resolution": {
+          "id": "0",
+          "product_id": "gonher-gp-149",
+          "quantity": 2,
+          "scope": "reference",
+          "vehicle": null
+        },
+        "status": "resolved"
+      }
+    ],
+    "fragments": [
+      {
+        "start": 8,
+        "end": 25,
+        "text": "; entrega urgente",
+        "id": "0",
+        "classification": {
+          "id": "0",
+          "kind": "resolved_context",
+          "reason": "Entrega local acordada, sin promesa de plazo",
+          "line_id": null
+        }
+      }
+    ],
+    "parser": {
+      "parser_version": "explicit-reference-numeric-v1",
+      "state": "extracted",
+      "result": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 2,
+                  "end": 8,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "description": null,
+            "manufacturer": null,
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 1,
+                  "text": "2"
+                }
+              ]
+            },
+            "vehicle": null,
+            "unsupported_concepts": []
+          }
+        ]
+      },
+      "rules": [
+        {
+          "item": 0,
+          "rule_id": "numeric-local-quantity",
+          "rule_version": "1",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 1,
+              "text": "2"
+            }
+          ]
+        },
+        {
+          "item": 0,
+          "rule_id": "reference-shape",
+          "rule_version": "1",
+          "evidence": [
+            {
+              "start": 2,
+              "end": 8,
+              "text": "GP-149"
+            }
+          ]
+        }
+      ],
+      "year_candidates": [],
+      "uncertain_reference_candidates": [],
+      "quantity_gaps": [],
+      "unresolved_fragments": [
+        {
+          "start": 8,
+          "end": 25,
+          "text": "; entrega urgente"
+        }
+      ],
+      "handoff_gaps": [
+        "free_text_and_relationships_deferred"
+      ]
+    },
+    "supplements": [
+      {
+        "text": "Confirmado: dos GP-149 por referencia; entrega local sin promesa de plazo.",
+        "actor": "Vendedor demo",
+        "reason": "Cliente confirma alcance y entrega local",
+        "version": 2,
+        "lines": [
+          {
+            "id": "0",
+            "product_id": "gonher-gp-149",
+            "quantity": 2,
+            "scope": "reference",
+            "vehicle": null
+          }
+        ],
+        "fragments": [
+          {
+            "id": "0",
+            "kind": "resolved_context",
+            "reason": "Entrega local acordada, sin promesa de plazo",
+            "line_id": null
+          }
+        ]
+      }
+    ],
+    "audit": [
+      {
+        "action": "received",
+        "actor": "demo-intake",
+        "reason": "Solicitud sintética local",
+        "version": 1,
+        "at": "2026-10-09T19:25:06.777148+00:00"
+      },
+      {
+        "action": "human_review",
+        "actor": "Vendedor demo",
+        "reason": "Cliente confirma alcance y entrega local",
+        "version": 2,
+        "at": "2026-10-09T19:25:06.791662+00:00"
+      }
+    ],
+    "quote": null
+  },
+  "draft": {
+    "id": "e496735d-15c6-4595-ade0-76161f577a92",
+    "request_id": "demo-review",
+    "customer": "Taller ficticio",
+    "original": {
+      "request_id": "demo-review",
+      "customer": "Taller ficticio",
+      "message": "2 GP-149; entrega urgente",
+      "suggestions": true,
+      "manual_lines": []
+    },
+    "version": 3,
+    "status": "draft",
+    "lines": [
+      {
+        "id": "0",
+        "suggested_reference": "GP-149",
+        "suggested_quantity": 2,
+        "evidence": [
+          {
+            "start": 2,
+            "end": 8,
+            "text": "GP-149"
+          }
+        ],
+        "resolution": {
+          "id": "0",
+          "product_id": "gonher-gp-149",
+          "quantity": 2,
+          "scope": "reference",
+          "vehicle": null
+        },
+        "status": "resolved"
+      }
+    ],
+    "fragments": [
+      {
+        "start": 8,
+        "end": 25,
+        "text": "; entrega urgente",
+        "id": "0",
+        "classification": {
+          "id": "0",
+          "kind": "resolved_context",
+          "reason": "Entrega local acordada, sin promesa de plazo",
+          "line_id": null
+        }
+      }
+    ],
+    "parser": {
+      "parser_version": "explicit-reference-numeric-v1",
+      "state": "extracted",
+      "result": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 2,
+                  "end": 8,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "description": null,
+            "manufacturer": null,
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 1,
+                  "text": "2"
+                }
+              ]
+            },
+            "vehicle": null,
+            "unsupported_concepts": []
+          }
+        ]
+      },
+      "rules": [
+        {
+          "item": 0,
+          "rule_id": "numeric-local-quantity",
+          "rule_version": "1",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 1,
+              "text": "2"
+            }
+          ]
+        },
+        {
+          "item": 0,
+          "rule_id": "reference-shape",
+          "rule_version": "1",
+          "evidence": [
+            {
+              "start": 2,
+              "end": 8,
+              "text": "GP-149"
+            }
+          ]
+        }
+      ],
+      "year_candidates": [],
+      "uncertain_reference_candidates": [],
+      "quantity_gaps": [],
+      "unresolved_fragments": [
+        {
+          "start": 8,
+          "end": 25,
+          "text": "; entrega urgente"
+        }
+      ],
+      "handoff_gaps": [
+        "free_text_and_relationships_deferred"
+      ]
+    },
+    "supplements": [
+      {
+        "text": "Confirmado: dos GP-149 por referencia; entrega local sin promesa de plazo.",
+        "actor": "Vendedor demo",
+        "reason": "Cliente confirma alcance y entrega local",
+        "version": 2,
+        "lines": [
+          {
+            "id": "0",
+            "product_id": "gonher-gp-149",
+            "quantity": 2,
+            "scope": "reference",
+            "vehicle": null
+          }
+        ],
+        "fragments": [
+          {
+            "id": "0",
+            "kind": "resolved_context",
+            "reason": "Entrega local acordada, sin promesa de plazo",
+            "line_id": null
+          }
+        ]
+      }
+    ],
+    "audit": [
+      {
+        "action": "received",
+        "actor": "demo-intake",
+        "reason": "Solicitud sintética local",
+        "version": 1,
+        "at": "2026-10-09T19:25:06.777148+00:00"
+      },
+      {
+        "action": "human_review",
+        "actor": "Vendedor demo",
+        "reason": "Cliente confirma alcance y entrega local",
+        "version": 2,
+        "at": "2026-10-09T19:25:06.791662+00:00"
+      },
+      {
+        "action": "draft_created",
+        "actor": "Vendedor demo",
+        "reason": "Revisión comercial explícita",
+        "version": 3,
+        "at": "2026-10-09T19:25:06.826535+00:00"
+      }
+    ],
+    "quote": {
+      "request": {
+        "id": "e496735d-15c6-4595-ade0-76161f577a92",
+        "request_id": "demo-review",
+        "customer": "Taller ficticio",
+        "review_version": 2,
+        "evidence_hash": "f228251e1b095ef1b8cf0c48112839ecfeaa139db162dcca14a89fee9e5a47df"
+      },
+      "lines": [
+        {
+          "line_id": "0",
+          "product": {
+            "id": "gonher-gp-149",
+            "reference": "GP-149",
+            "manufacturer": "GONHER",
+            "description": "filtro de aceite",
+            "source": {
+              "manufacturer": "GONHER",
+              "edition": "2026",
+              "printed_page": 69,
+              "pdf_page": 71,
+              "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+              "scope": "Catalog claim only; not fitment certification. GP subset, excludes GPS."
+            },
+            "applications": [
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2012,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2013,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2014,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2015,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2016,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2017,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2018,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2019,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              }
+            ]
+          },
+          "quantity": 2,
+          "price": "150.00",
+          "cost": "90.00",
+          "gross_margin": "0.4000",
+          "line_total": "300.00",
+          "inventory_snapshot": {
+            "product_id": "gonher-gp-149",
+            "price": "150.00",
+            "cost": "90.00",
+            "on_hand": 20,
+            "reserved": 0,
+            "version": 1,
+            "available": 20,
+            "synthetic": true
+          },
+          "scope": "reference",
+          "vehicle": null
+        }
+      ],
+      "rules": {
+        "version": "demo-commercial-v1",
+        "currency": "MXN",
+        "vat_rate": "0.16",
+        "minimum_gross_margin": "0.20",
+        "discounts": "none",
+        "tax_scope": "Demo assumption, not tax advice",
+        "data_scope": "Prices, costs and stock are synthetic, not manufacturer facts"
+      },
+      "catalog_hash": "945d99f83645c102860d20b330bf81ccd88ed6579940975cc1a9bda72b28b55a",
+      "subtotal": "300.00",
+      "vat": "48.00",
+      "total": "348.00",
+      "synthetic": true,
+      "snapshot": "f9e6fa57e17b85f7bd14e3c9afd5ae8d33cd9ab483db14d02983382b08b276e2",
+      "version": 3
+    }
+  },
+  "approved": {
+    "id": "e496735d-15c6-4595-ade0-76161f577a92",
+    "request_id": "demo-review",
+    "customer": "Taller ficticio",
+    "original": {
+      "request_id": "demo-review",
+      "customer": "Taller ficticio",
+      "message": "2 GP-149; entrega urgente",
+      "suggestions": true,
+      "manual_lines": []
+    },
+    "version": 4,
+    "status": "approved",
+    "lines": [
+      {
+        "id": "0",
+        "suggested_reference": "GP-149",
+        "suggested_quantity": 2,
+        "evidence": [
+          {
+            "start": 2,
+            "end": 8,
+            "text": "GP-149"
+          }
+        ],
+        "resolution": {
+          "id": "0",
+          "product_id": "gonher-gp-149",
+          "quantity": 2,
+          "scope": "reference",
+          "vehicle": null
+        },
+        "status": "resolved"
+      }
+    ],
+    "fragments": [
+      {
+        "start": 8,
+        "end": 25,
+        "text": "; entrega urgente",
+        "id": "0",
+        "classification": {
+          "id": "0",
+          "kind": "resolved_context",
+          "reason": "Entrega local acordada, sin promesa de plazo",
+          "line_id": null
+        }
+      }
+    ],
+    "parser": {
+      "parser_version": "explicit-reference-numeric-v1",
+      "state": "extracted",
+      "result": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 2,
+                  "end": 8,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "description": null,
+            "manufacturer": null,
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 1,
+                  "text": "2"
+                }
+              ]
+            },
+            "vehicle": null,
+            "unsupported_concepts": []
+          }
+        ]
+      },
+      "rules": [
+        {
+          "item": 0,
+          "rule_id": "numeric-local-quantity",
+          "rule_version": "1",
+          "evidence": [
+            {
+              "start": 0,
+              "end": 1,
+              "text": "2"
+            }
+          ]
+        },
+        {
+          "item": 0,
+          "rule_id": "reference-shape",
+          "rule_version": "1",
+          "evidence": [
+            {
+              "start": 2,
+              "end": 8,
+              "text": "GP-149"
+            }
+          ]
+        }
+      ],
+      "year_candidates": [],
+      "uncertain_reference_candidates": [],
+      "quantity_gaps": [],
+      "unresolved_fragments": [
+        {
+          "start": 8,
+          "end": 25,
+          "text": "; entrega urgente"
+        }
+      ],
+      "handoff_gaps": [
+        "free_text_and_relationships_deferred"
+      ]
+    },
+    "supplements": [
+      {
+        "text": "Confirmado: dos GP-149 por referencia; entrega local sin promesa de plazo.",
+        "actor": "Vendedor demo",
+        "reason": "Cliente confirma alcance y entrega local",
+        "version": 2,
+        "lines": [
+          {
+            "id": "0",
+            "product_id": "gonher-gp-149",
+            "quantity": 2,
+            "scope": "reference",
+            "vehicle": null
+          }
+        ],
+        "fragments": [
+          {
+            "id": "0",
+            "kind": "resolved_context",
+            "reason": "Entrega local acordada, sin promesa de plazo",
+            "line_id": null
+          }
+        ]
+      }
+    ],
+    "audit": [
+      {
+        "action": "received",
+        "actor": "demo-intake",
+        "reason": "Solicitud sintética local",
+        "version": 1,
+        "at": "2026-10-09T19:25:06.777148+00:00"
+      },
+      {
+        "action": "human_review",
+        "actor": "Vendedor demo",
+        "reason": "Cliente confirma alcance y entrega local",
+        "version": 2,
+        "at": "2026-10-09T19:25:06.791662+00:00"
+      },
+      {
+        "action": "draft_created",
+        "actor": "Vendedor demo",
+        "reason": "Revisión comercial explícita",
+        "version": 3,
+        "at": "2026-10-09T19:25:06.826535+00:00"
+      },
+      {
+        "action": "quote_approved",
+        "actor": "Supervisor demo",
+        "reason": "Acepto versión, catálogo y reglas mostradas",
+        "version": 4,
+        "at": "2026-10-09T19:25:06.838273+00:00"
+      }
+    ],
+    "quote": {
+      "request": {
+        "id": "e496735d-15c6-4595-ade0-76161f577a92",
+        "request_id": "demo-review",
+        "customer": "Taller ficticio",
+        "review_version": 2,
+        "evidence_hash": "f228251e1b095ef1b8cf0c48112839ecfeaa139db162dcca14a89fee9e5a47df"
+      },
+      "lines": [
+        {
+          "line_id": "0",
+          "product": {
+            "id": "gonher-gp-149",
+            "reference": "GP-149",
+            "manufacturer": "GONHER",
+            "description": "filtro de aceite",
+            "source": {
+              "manufacturer": "GONHER",
+              "edition": "2026",
+              "printed_page": 69,
+              "pdf_page": 71,
+              "url": "https://gonher.com.mx/wp-content/uploads/2026/04/CATALOGO26_FILTROS.pdf",
+              "scope": "Catalog claim only; not fitment certification. GP subset, excludes GPS."
+            },
+            "applications": [
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2012,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2013,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2014,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2015,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2016,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2017,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2018,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              },
+              {
+                "make": "Nissan",
+                "model": "Versa",
+                "year": 2019,
+                "engine": "1.6",
+                "source_engine": "L4-1.6L"
+              }
+            ]
+          },
+          "quantity": 2,
+          "price": "150.00",
+          "cost": "90.00",
+          "gross_margin": "0.4000",
+          "line_total": "300.00",
+          "inventory_snapshot": {
+            "product_id": "gonher-gp-149",
+            "price": "150.00",
+            "cost": "90.00",
+            "on_hand": 20,
+            "reserved": 0,
+            "version": 1,
+            "available": 20,
+            "synthetic": true
+          },
+          "scope": "reference",
+          "vehicle": null
+        }
+      ],
+      "rules": {
+        "version": "demo-commercial-v1",
+        "currency": "MXN",
+        "vat_rate": "0.16",
+        "minimum_gross_margin": "0.20",
+        "discounts": "none",
+        "tax_scope": "Demo assumption, not tax advice",
+        "data_scope": "Prices, costs and stock are synthetic, not manufacturer facts"
+      },
+      "catalog_hash": "945d99f83645c102860d20b330bf81ccd88ed6579940975cc1a9bda72b28b55a",
+      "subtotal": "300.00",
+      "vat": "48.00",
+      "total": "348.00",
+      "synthetic": true,
+      "snapshot": "f9e6fa57e17b85f7bd14e3c9afd5ae8d33cd9ab483db14d02983382b08b276e2",
+      "version": 3
+    },
+    "approval": {
+      "actor": "Supervisor demo",
+      "reason": "Acepto versión, catálogo y reglas mostradas",
+      "quote_version": 3,
+      "snapshot": "f9e6fa57e17b85f7bd14e3c9afd5ae8d33cd9ab483db14d02983382b08b276e2"
+    }
+  }
+}

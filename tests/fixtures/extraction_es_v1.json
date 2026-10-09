@@ -1,0 +1,513 @@
+{
+  "dataset_version": "es-auto-requests-v1",
+  "kind": "synthetic-agent-authored-contract-fixtures",
+  "human_reviewed": false,
+  "real_provider_evaluated": false,
+  "annotation_policy": "Developer-agent-authored fictional Spanish requests and conservative expected extraction; not yet human-reviewed, not customer data, not measured inference output.",
+  "cases": [
+    {
+      "id": "reference",
+      "message": "Buenas, necesito dos GP-149 GONHER para el taller.",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 21,
+                  "end": 27,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "manufacturer": {
+              "value": "GONHER",
+              "evidence": [
+                {
+                  "start": 28,
+                  "end": 34,
+                  "text": "GONHER"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 17,
+                  "end": 20,
+                  "text": "dos"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "matched"
+      ],
+      "annotation_notes": "Reference lookup does not evaluate fitment."
+    },
+    {
+      "id": "vehicle-complete",
+      "message": "Cotízame un filtro de aceite para Nissan Versa 2021 motor 1.6.",
+      "expected": {
+        "items": [
+          {
+            "description": {
+              "value": "filtro de aceite",
+              "evidence": [
+                {
+                  "start": 12,
+                  "end": 28,
+                  "text": "filtro de aceite"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "evidence": [
+                {
+                  "start": 9,
+                  "end": 11,
+                  "text": "un"
+                }
+              ]
+            },
+            "vehicle": {
+              "make": {
+                "value": "Nissan",
+                "evidence": [
+                  {
+                    "start": 34,
+                    "end": 40,
+                    "text": "Nissan"
+                  }
+                ]
+              },
+              "model": {
+                "value": "Versa",
+                "evidence": [
+                  {
+                    "start": 41,
+                    "end": 46,
+                    "text": "Versa"
+                  }
+                ]
+              },
+              "year": {
+                "value": "2021",
+                "evidence": [
+                  {
+                    "start": 47,
+                    "end": 51,
+                    "text": "2021"
+                  }
+                ]
+              },
+              "engine": {
+                "value": "1.6",
+                "evidence": [
+                  {
+                    "start": 58,
+                    "end": 61,
+                    "text": "1.6"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "matched"
+      ],
+      "annotation_notes": "Catalog claim only; prices requested but not extracted or invented."
+    },
+    {
+      "id": "cabin-ambiguous",
+      "message": "Necesito un filtro de cabina Nissan Versa 2018 1.6, ¿cuál tienes?",
+      "expected": {
+        "items": [
+          {
+            "description": {
+              "value": "filtro de cabina",
+              "evidence": [
+                {
+                  "start": 12,
+                  "end": 28,
+                  "text": "filtro de cabina"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "evidence": [
+                {
+                  "start": 9,
+                  "end": 11,
+                  "text": "un"
+                }
+              ]
+            },
+            "vehicle": {
+              "make": {
+                "value": "Nissan",
+                "evidence": [
+                  {
+                    "start": 29,
+                    "end": 35,
+                    "text": "Nissan"
+                  }
+                ]
+              },
+              "model": {
+                "value": "Versa",
+                "evidence": [
+                  {
+                    "start": 36,
+                    "end": 41,
+                    "text": "Versa"
+                  }
+                ]
+              },
+              "year": {
+                "value": "2018",
+                "evidence": [
+                  {
+                    "start": 42,
+                    "end": 46,
+                    "text": "2018"
+                  }
+                ]
+              },
+              "engine": {
+                "value": "1.6",
+                "evidence": [
+                  {
+                    "start": 47,
+                    "end": 50,
+                    "text": "1.6"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ],
+      "annotation_notes": "Two catalog alternatives; no automatic choice or stock claim."
+    },
+    {
+      "id": "missing-year",
+      "message": "Un filtro de aceite para Nissan Versa 1.6; no sé el año.",
+      "expected": {
+        "items": [
+          {
+            "description": {
+              "value": "filtro de aceite",
+              "evidence": [
+                {
+                  "start": 3,
+                  "end": 19,
+                  "text": "filtro de aceite"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 2,
+                  "text": "Un"
+                }
+              ]
+            },
+            "vehicle": {
+              "make": {
+                "value": "Nissan",
+                "evidence": [
+                  {
+                    "start": 25,
+                    "end": 31,
+                    "text": "Nissan"
+                  }
+                ]
+              },
+              "model": {
+                "value": "Versa",
+                "evidence": [
+                  {
+                    "start": 32,
+                    "end": 37,
+                    "text": "Versa"
+                  }
+                ]
+              },
+              "engine": {
+                "value": "1.6",
+                "evidence": [
+                  {
+                    "start": 38,
+                    "end": 41,
+                    "text": "1.6"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ],
+      "annotation_notes": "Unknown year remains null/omitted."
+    },
+    {
+      "id": "unsupported-part",
+      "message": "¿Me consigues balatas delanteras para Versa?",
+      "expected": {
+        "items": [
+          {
+            "description": {
+              "value": "balatas",
+              "evidence": [
+                {
+                  "start": 14,
+                  "end": 21,
+                  "text": "balatas"
+                }
+              ]
+            },
+            "vehicle": {
+              "model": {
+                "value": "Versa",
+                "evidence": [
+                  {
+                    "start": 38,
+                    "end": 43,
+                    "text": "Versa"
+                  }
+                ]
+              }
+            },
+            "unsupported_concepts": [
+              {
+                "value": "delanteras",
+                "evidence": [
+                  {
+                    "start": 22,
+                    "end": 32,
+                    "text": "delanteras"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ],
+      "annotation_notes": "No assumed make, quantity, year, engine or inventory."
+    },
+    {
+      "id": "mixed-multiline",
+      "message": "Dos GP-149.\nTambién un GAD-6554, por favor.",
+      "expected": {
+        "items": [
+          {
+            "reference": {
+              "value": "GP-149",
+              "evidence": [
+                {
+                  "start": 4,
+                  "end": 10,
+                  "text": "GP-149"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 3,
+                  "text": "Dos"
+                }
+              ]
+            }
+          },
+          {
+            "reference": {
+              "value": "GAD-6554",
+              "evidence": [
+                {
+                  "start": 23,
+                  "end": 31,
+                  "text": "GAD-6554"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "evidence": [
+                {
+                  "start": 20,
+                  "end": 22,
+                  "text": "un"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "matched",
+        "matched"
+      ],
+      "annotation_notes": "Original LF and Unicode character offsets preserved."
+    },
+    {
+      "id": "unknown-coverage",
+      "message": "Un filtro de aceite para Nissan Versa 2030 1.6.",
+      "expected": {
+        "items": [
+          {
+            "description": {
+              "value": "filtro de aceite",
+              "evidence": [
+                {
+                  "start": 3,
+                  "end": 19,
+                  "text": "filtro de aceite"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 1,
+              "evidence": [
+                {
+                  "start": 0,
+                  "end": 2,
+                  "text": "Un"
+                }
+              ]
+            },
+            "vehicle": {
+              "make": {
+                "value": "Nissan",
+                "evidence": [
+                  {
+                    "start": 25,
+                    "end": 31,
+                    "text": "Nissan"
+                  }
+                ]
+              },
+              "model": {
+                "value": "Versa",
+                "evidence": [
+                  {
+                    "start": 32,
+                    "end": 37,
+                    "text": "Versa"
+                  }
+                ]
+              },
+              "year": {
+                "value": "2030",
+                "evidence": [
+                  {
+                    "start": 38,
+                    "end": 42,
+                    "text": "2030"
+                  }
+                ]
+              },
+              "engine": {
+                "value": "1.6",
+                "evidence": [
+                  {
+                    "start": 43,
+                    "end": 46,
+                    "text": "1.6"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending"
+      ],
+      "annotation_notes": "No coverage does not prove incompatibility."
+    },
+    {
+      "id": "kit-and-unrepaired-reference",
+      "message": "Mándame el kit para Versa y dos GP149.",
+      "expected": {
+        "items": [
+          {
+            "vehicle": {
+              "model": {
+                "value": "Versa",
+                "evidence": [
+                  {
+                    "start": 20,
+                    "end": 25,
+                    "text": "Versa"
+                  }
+                ]
+              }
+            },
+            "unsupported_concepts": [
+              {
+                "value": "kit",
+                "evidence": [
+                  {
+                    "start": 11,
+                    "end": 14,
+                    "text": "kit"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "reference": {
+              "value": "GP149",
+              "evidence": [
+                {
+                  "start": 32,
+                  "end": 37,
+                  "text": "GP149"
+                }
+              ]
+            },
+            "quantity": {
+              "value": 2,
+              "evidence": [
+                {
+                  "start": 28,
+                  "end": 31,
+                  "text": "dos"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expected_catalog_status": [
+        "pending",
+        "pending"
+      ],
+      "annotation_notes": "Kit not expanded; GP149 not repaired to GP-149."
+    }
+  ]
+}
